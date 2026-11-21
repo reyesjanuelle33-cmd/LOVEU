@@ -777,3 +777,78 @@ body {
     background: var(--accent-deep);
     transform: translateY(-2px);
 }
+
+/* ================= MOBILE / PHONE MODE OPTIMIZATION ================= */
+@media (max-width: 430px) {
+    body {
+        padding: 12px;
+        align-items: center;
+    }
+
+    .glass-card {
+        padding: 26px 18px;
+        border-radius: 26px;
+    }
+
+    .main-heading {
+        font-size: 1.65rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+
+    /* Keypad fit for narrow phones */
+    .keypad-box {
+        max-width: 100%;
+        padding: 20px 16px 24px;
+    }
+
+    .heart-grid {
+        gap: 10px;
+    }
+
+    .heart-key {
+        width: 58px;
+        height: 52px;
+        font-size: 1.2rem;
+    }
+
+    /* Bouquet spacing so Lily, Sunflower, and Gerbera fit cleanly */
+    .bouquet-stage {
+        height: 300px;
+    }
+
+    .flower-svg {
+        width: 108px;
+        height: 190px;
+    }
+
+    .flower-center .flower-svg {
+        width: 122px;
+        height: 212px;
+    }
+
+    .flower-left.bloom {
+        transform: translate(18px, 0) rotate(-14deg) scale(1);
+    }
+
+    .flower-right.bloom {
+        transform: translate(-18px, 0) rotate(14deg) scale(1);
+    }
+
+    .word-bubble {
+        font-size: 1.05rem;
+        padding: 4px 12px;
+    }
+
+    .letter-paper {
+        max-height: 290px;
+        padding: 16px 15px;
+        font-size: 0.92rem;
+    }
+
+    .couple-img {
+        height: 185px;
+    }
+}
