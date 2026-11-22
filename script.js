@@ -61,7 +61,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // 4. Page 2: Heart Keypad Logic (Answer: 24)
     let enteredCode = "";
-    const CORRECT_DATE = "24";
+    const CORRECT_DATE = "23";
     const codeDisplay = document.getElementById("codeDisplay");
     const errorMsg = document.getElementById("errorMsg");
     const keypadBox = document.querySelector(".keypad-box");
